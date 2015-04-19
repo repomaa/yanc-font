@@ -10,7 +10,7 @@ licence=('MIT')
 depends=(fontconfig xorg-font-utils)
 makedepends=('git' 'xorg-bdftopcf')
 
-source=("${pkgname}::git+https://github.com/jreinert/yancfont.git")
+source=("${pkgname}::git+https://github.com/jreinert/yanc-font.git")
 sha512sums=(SKIP)
 provides=('yanc-font')
 conflicts=('yanc-font')
