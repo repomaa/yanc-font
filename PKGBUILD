@@ -8,7 +8,7 @@ arch=(any)
 url='https://github.com/jreinert/yanc-font'
 licence=('MIT')
 depends=(fontconfig xorg-font-utils)
-makedepends('git')
+makedepends=('git')
 
 source=("${pkgname}::git+https://github.com/jreinert/yancfont.git")
 sha512sums=(SKIP)
