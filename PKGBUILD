@@ -29,8 +29,9 @@ build() {
 }
 
 package() {
+  cd "${pkgname}"
   install -d "$pkgdir/usr/share/fonts/misc"
-  install -m644 "$srcdir/$pkgname/"*.pcf.gz "$pkgdir/usr/share/fonts/misc/"
+  install -m644 *.pcf.gz "$pkgdir/usr/share/fonts/misc/"
 }
 
 # vim:set ts=2 sw=2 et:
