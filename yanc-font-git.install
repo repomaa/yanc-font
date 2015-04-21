@@ -3,7 +3,7 @@ post_install() {
   fc-cache >/dev/null -f
   mkfontscale /usr/share/fonts/TTF
   mkfontdir   /usr/share/fonts/TTF
-  xset fp rehash >/dev/null -f
+  xset fp rehash >/dev/null 2>&1
   echo done
 }
 
