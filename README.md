@@ -2,4 +2,4 @@
 
 Yet another neat condensed font. Based on gohufont.
 
-[![Screenshot](scrot.png)](https://raw.githubusercontent.com/jreinert/yanc-font/master/scrot.png)
+[![Screenshot](scrot_thumb.png)](https://raw.githubusercontent.com/jreinert/yanc-font/master/scrot.png)
